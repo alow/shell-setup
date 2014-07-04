@@ -2,7 +2,11 @@
 syntax on
 colorscheme koehler
 set background=dark
+set cursorline
+hi CursorLine cterm=NONE ctermbg=darkred ctermfg=white
 
+" Show line numbers
+set number
 
 " Sets how many lines of history VIM has to remember
 set history=700
